@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+
+    <id>GordonBeeming.YARL</id>
+    <version>0.0.1</version>
+    <title>Yet Another Results Library</title>
+    <authors>Gordon-Beeming</authors>
+    <description>COMING SOON - YARL is a simple implementation of a results library for services and apis</description>
+    <summary>
+      YARL removes the need for exceptions in your code and allows you to return a result object that can be used to determine the outcome of the operation
+    </summary>
+    <releaseNotes>
+    </releaseNotes>
+
+    <projectUrl>https://github.com/GordonBeeming/YARL</projectUrl>
+    <repository type="git" url="https://github.com/GordonBeeming/YARL.git" branch="main" />
+
+    <license type="file">LICENSE</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>results-pattern csharp dotnet</tags>
+    <readme>README.md</readme>
+
+    <packageTypes>
+      <packageType name="Dependency" />
+    </packageTypes>
+
+  </metadata>
+
+  <files>
+    <file src="README.md" />
+    <file src="LICENSE" />
+    <!-- <file src=".\**" target="content" exclude="**\bin\**;**\obj\**;**\.vs\**;**\.vscode\**;**\.git\**;**\.github\**;**\LICENSE;**\*.nupkg" /> -->
+  </files>
+
+</package>
